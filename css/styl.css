@@ -1,0 +1,72 @@
+
+.center {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+}
+
+.text {
+    text-align: center;
+    font-size: 8rem;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+    font-family: 'Rajdhani';
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    background-color:  rgb(68, 80, 71);
+    user-select: none;
+}
+
+.title {
+    font-size: 6rem;
+    font-family: 'Chakra Petch';
+    margin-bottom: 0rem;   
+    text-align: center;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+    user-select: none;
+}
+
+.btn1 {
+    font-family: 'Chakra Petch';
+    background-color: rgb(68, 80, 71); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 1.5rem 5rem; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    font-size: 2rem;
+    border-radius: 1rem;
+    user-select: none;
+    outline: none;
+    border: transparent;
+}
+.btn2 {
+    font-family: 'Chakra Petch';
+    background-color: rgb(68, 80, 71); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 1.5rem 5rem; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    font-size: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    user-select: none;
+    border: transparent;
+}
+.btn1:hover{
+    background-color: rgb(104, 136, 109);
+}
+.btn2:hover{
+    background-color: rgb(104, 136, 109);
+}
+.active {
+    background-color: rgb(82, 134, 115);
+}
+.active:hover {
+    background-color: rgb(82, 134, 115);
+    cursor: not-allowed;
+}
